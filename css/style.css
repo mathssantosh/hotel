@@ -1,0 +1,283 @@
+/* Reusing codes */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: auto; 
+    line-height: 1.7rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.btn{
+    display: inline-block;
+    background: black;
+    color:white;
+    padding:10px 15px;
+    border:1px solid transparent;
+}
+.btn:hover{
+    color:black;
+    background: orange;
+}
+.clr{
+    clear: both;
+}
+
+/* Navigation */
+#navbar {
+    background: #313131;
+    overflow: auto;
+    color: white;
+}
+
+.container {
+    max-width: 1130px;
+    margin:auto;
+    overflow: auto;
+    padding:0 20px;
+}
+
+#navbar h1 {
+    float: left;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding-top:25px;
+}
+
+#navbar ul {
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    padding:20px;
+    text-align:center
+}
+#navbar ul li a:hover,
+#navbar .active{
+    Color:rgb(255, 183, 0);
+    background:#494745;
+}
+/* Hero Section */
+#hero{
+    background:url(/img/showcase.jpg) no-repeat center center/cover;
+    color:white;
+    max-width: 100%;
+    height:100vh;
+    text-align: center;
+    position: relative;
+}
+.highlight{
+    color: orange;
+}
+.showcase{
+    position: absolute;
+    top:200px;
+    left:450px;
+    margin:auto;
+}
+.showcase h1{
+    font-size: 3rem;
+    padding-bottom:20px;
+}
+.showcase p{
+    padding:20px 0px;
+    font-size:1rem;
+    font-weight: bold;
+}
+/* history */
+#history{
+    background: black;
+    color:white;
+    overflow: auto;
+}
+
+.image img{
+    float:left;
+    width:50%;
+    height:400px;
+    position: relative;
+}
+#history .content{
+    text-align: center;
+    padding-top:20px;
+}
+.content h1{
+    padding:30px 0px;
+    text-decoration: underline;
+}
+.content p{
+    padding:10px 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content a{
+    background:white;
+    color:black;
+}
+/* Uses */
+.box{
+    text-align: center;
+    width:33.33%;
+    padding:20px;
+}
+#box1{
+    float:left;
+    background:rgb(222, 217, 217)
+}
+#box2{
+    float:left;
+    background:rgb(206, 145, 74)
+}
+#box3{
+    float:right;
+    background-color: rgb(207, 210, 216);
+}
+.box i{
+    padding:20px;
+}
+
+.content1 h1 {
+    padding:20px;
+}
+.content p{
+    padding:20px 0px;
+}
+/* footer */
+footer{
+    background:black;
+    color:whitesmoke;
+    text-align: center;
+    padding:30px;
+}
+
+/* About Page */
+.info{
+    padding:20px;
+    float:left;
+    width:50%;
+    line-height:2rem;
+}
+.info h1{
+    font-size:2rem;
+    font-weight:bolder;
+    text-decoration: underline;
+}
+.info p{
+    padding:20px 25px 20px 0px; 
+}
+.image2 img{
+    float: right;
+    width:50%;
+    border-radius:50%;
+    height:350px;
+    padding:20px 50px;
+}
+
+/* Testinomails */
+#test{
+    background:url(/img/test-bg.jpg) no-repeat center center/cover;
+    overflow:auto;
+    width:100%;
+    padding:20px 0px 30px 0px;
+    height:600px;
+}
+.head{
+    text-align:center;
+    font-size:3rem;
+    color:white;
+    font-weight:bolder;
+    padding:100px 50px 50px 50px;
+}
+.test1{
+    border:1px solid white;
+    background:rgba(12, 5, 1, 0.792);
+    padding:20px;
+    margin-bottom:20px;
+    opacity:0.8;
+    height:150px;
+    border-radius: 10px;
+    z-index:-1;
+}
+.test1 img{
+    border-radius:50%;
+    height:100px;
+    float:left;
+    z-index:1;  
+    padding-right:20px;
+    
+}
+.test1 .content1{
+    padding:20px;
+    text-align:left;
+    color:white;
+}
+/* Conatct Page */
+.head1{
+    padding:20px 0px;
+}
+.head1 > h1{
+    font-size:3rem;
+    text-decoration: underline;
+    &::after{
+        content: " -" ;
+    }
+}
+.head1 > p{
+    padding-top:30px;
+}
+form{
+    padding:20px 0px;
+}
+form div label{
+    padding:10px 0px;
+    width:100%;
+}
+form div input, form div textarea{
+    width:100%;
+    padding:5px;
+    margin-bottom: 5px;
+    border:1px solid rgb(205, 195, 195);
+}
+/* Address */
+#address{
+    background:rgb(88, 86, 86);
+    color:white;
+    padding:20px;
+}
+.boxx{
+    float:left;
+    width:33.33%;
+    text-align:center;
+    border:1px solid black;
+    background:rgb(234, 232, 232);
+    color:black;
+}
+.boxx h2, .boxx i, .boxx p{
+    padding:20px 0px;
+}
+
+
+
+
+
+    
+
+
+
+

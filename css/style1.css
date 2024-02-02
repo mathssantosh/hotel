@@ -1,0 +1,76 @@
+@media(max-width:720px) and (min-width:300px)
+{
+  /* Index Page */
+  #navbar .container .logo{
+    text-align: center;
+    width:100%;
+    padding:20px;
+    border-bottom: 1px solid white;
+  }
+  #navbar .container ul li a{
+    text-align: left;
+    margin:auto;
+    padding-left:30px;
+    border-bottom: 1px solid white;
+  }
+  #hero .showcase{
+    position: absolute;
+    float: left;
+    text-align: center;
+    left:10px;
+    margin:auto; 
+  }
+  .image img{
+    width:100%;
+    padding-bottom: 20px;
+  }
+  #history .content{
+    text-align: center;
+    padding:20px;
+}
+.box{
+  text-align: center;
+  width:100%;
+}
+
+/* About Page */
+.info{
+  margin-top:20px;
+  width:100%;
+  background:black;
+  color:white;
+}
+.image2 img{
+  width:100%;
+  border-radius:50%;
+  height:350px;
+  padding:20px 50px;
+}
+/* Testinomails */
+#test{
+  height:auto;
+}
+#test .head{
+  font-size:2rem;
+  line-height: 3rem; 
+  padding-top:20px;
+}
+.test1{
+  height:300px;
+}
+.test1 img{
+  margin-left:100px;
+  float: center;
+
+}
+.test1 .content1{
+  padding:2px;
+  text-align: left;
+  float:left;
+}
+/* Contact Page */
+.boxx{
+  width: 100%;
+}
+}
+
